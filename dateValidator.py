@@ -36,7 +36,7 @@ def checkMonth(month):
             print('The month field must be between 1 and 12.')
             return False
     else:
-        print('The month field must be an integer.')
+        print('The month field must be an integer.)
         return False
     
 def checkYear(year):
@@ -50,7 +50,7 @@ def checkYear(year):
     else:
         print('The year field must be an integer.')
         return False
-        
+# comment   
 def main():
     print('This program validates a date')
     date= input('Enter your date in a dd/mm/yyyy format: ')

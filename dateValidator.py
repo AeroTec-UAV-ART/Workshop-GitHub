@@ -59,5 +59,5 @@ def main():
     if yearVal and monthVal:
         if checkDay(dateArray[0],dateArray[1],dateArray[2]):
             print('The date',date,'is correct!')
-        #comment
+        #comment #test
 main()

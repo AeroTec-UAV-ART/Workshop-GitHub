@@ -35,7 +35,7 @@ def checkMonth(month):
             print('The month field must be between 1 and 12.')
             return False
     else:
-        print('The month field must be an integer.')
+        print('The month field must be an integer.)
         return False
     
 def checkYear(year):

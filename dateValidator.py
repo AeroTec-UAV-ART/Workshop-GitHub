@@ -57,8 +57,9 @@ def main():
     dateArray= date.split('/')
     yearVal=checkYear(dateArray[2])
     monthVal=checkMonth(dateArray[1])
+    # If both the year and month are correct
     if yearVal and monthVal:
-        if checkDay(dateArray[0],dateArray[1],dateArray[2]):
+        if checkDay(dateArray[0],dateArray[1],dateArray[2]): # If the day is correct
             print('The date',date,'is correct!')
         
 main()

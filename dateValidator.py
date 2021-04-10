@@ -4,7 +4,7 @@
 
 from calendar import monthrange
 
-def isInt(inputString):
+def isInt(inputString)
     try:
         int(inputString)
         return True

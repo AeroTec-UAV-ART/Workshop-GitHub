@@ -55,6 +55,7 @@ def main():
     date= input('Enter your date in a dd/mm/yyyy format: ')
     dateArray= date.split('/')
     yearVal=checkYear(dateArray[2])
+    #LOOOOOOOOOOOOOOOOOOOOOOOOL
     monthVal=checkMonth(dateArray[1])
     if yearVal and monthVal:
         if checkDay(dateArray[0],dateArray[1],dateArray[2]):
